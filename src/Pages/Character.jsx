@@ -22,7 +22,7 @@ const Character = () => {
           {
             data.character.episode.map((episode) => {
               return <div>
-                {episode.name} - <b> l </b>
+                {episode.name} - <b> {episode.episode} </b>
               </div>
             })
           }
